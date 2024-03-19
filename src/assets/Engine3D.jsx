@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { RotatingDiv } from "./App";
+import { RotatingDiv } from "../App";
 
 const Engine3D = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
